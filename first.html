@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html> 
+    <head>
+      <title> Shopify website </title>
+      <link rel="stylesheet" href="first.css"/>
+    </head>
+
+    <body>
+    
+
+        <img src="laptop.jpeg" width="100%" height="200px" alt="image is not there"/>
+        
+        <h2 id="h2title"> Welcome to Shopping website </h2>
+
+        <div id="div1">
+            <p> This is website for shopping all kind if products
+                of all categories. etc
+
+                Lorem ipsum dolor sit, amet consectetur adipisicing 
+                elit. Accusamus perferendis numquam eos ullam, 
+                harum earum aliquam reiciendis, hic, dolores nostrum 
+                necessitatibus quod sunt iusto magni vel. Possimus 
+                amet maxime blanditiis non omnis. Voluptas quis, 
+                facilis in mollitia dignissimos quibusdam deserunt! 
+                Soluta corporis porro sapiente saepe provident 
+                reiciendis, aliquam repudiandae nam.
+            </p>
+        </div>
+
+        <div style="background-color: burlywood;">
+            <h4> Below are the categories:</h4>
+            <ul>
+                <li> Electronics </li>
+                <li> Clothing </li>
+                <li> Costmetics </li>
+                <li> Footwear </li>
+            </ul>
+
+             <ol type="A">
+                <li> India </li>
+                <li> Canada </li>
+                <li> SA </li>
+                <li> Sri Lanka </li>
+            </ol>
+            
+        </div>
+
+<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem eius eaque magni architecto quaerat quasi adipisci, iste pariatur natus dolorem?</p>
+        <div>
+            <h2> Register Form </h2>
+
+            <form onsubmit="show()" action="second.html">
+                <div>
+                    <label> Full Name</label>
+                    <input type="text" id="fullname" required/>
+                </div>
+
+                <br/>
+                <div>
+                    <label> Date of Birth</label>
+                    <input type="date" id="dob" required/>
+                </div>
+                
+                <br/>
+                <div>
+                    <label> Password</label>
+                    <input type="password" id="password" required/>
+                </div>
+
+                <br/>
+                <div>
+                    <label> Age</label>
+                    <input type="number" id="age" min="18" max="70"/>
+                </div>
+
+                <br/>
+                <div>
+                    <label> Attach your pic</label>
+                    <input type="file" id="pic" />
+                </div>
+
+                <br/>
+                <div>
+                    <label> Gender:</label>
+                    <br/>
+                    <label> Male</label>
+                    <input type="radio" id="male" name="gender"/>
+                    <label> Female</label>
+                    <input type="radio" id="female" name="gender"/>
+                </div>
+
+                <br/>
+                <div>
+                    <label> Hobbies:</label>
+                    <br/>
+                    <label> Cricket</label>
+                    <input type="checkbox" id="cricket" name="hobby"/>
+                    <label> Tennis</label>
+                    <input type="checkbox" id="tennis" name="hobby"/>
+                    <label> Football</label>
+                    <input type="checkbox" id="football" name="hobby"/>
+                </div>
+
+                <br/>
+                <div>
+                    <select id="country" name="country">
+                      <option value="India"> India </option>
+                      <option value="US"> US </option>
+                      <option value="SA"> South Africa </option>
+                      <option value="Sri Lanka"> Sri Lanka </option>
+                    </select>
+                </div>
+
+                <br/>
+                <div>
+                     Write your question:
+                     <br/>
+                    <textarea rows="10" columns="50">
+                    </textarea>
+                </div>
+
+                <div>
+                    <button type="submit"> Register </button>
+                    <input type="reset" />
+                </div>
+            </form>
+        </div>
+
+        <div>
+            <table border="2">
+                <thead>
+                  <tr>
+                    <th> Name </th>
+                    <th> City </th>
+                    <th> Dept </th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                   <tr>
+                     <td> Viren </td>
+                     <td> Delhi </td>
+                     <td> IT </td>
+                   </tr>
+
+                    <tr>
+                     <td> Ravi </td>
+                     <td> Chennai </td>
+                     <td> IT </td>
+                   </tr>
+
+                    <tr>
+                     <td> Kavita </td>
+                     <td> Kolkata </td>
+                     <td> IT </td>
+                   </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <script src="validate.js"></script>
+    </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html> 
+    <head>
+      <title> Shopify website </title>
+    </head>
+
+    <body>
+       Form submitted !! Welcome to Dashboard
+
+       <p class="p1">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, inventore?
+       </p>
+
+       <h2 class="p1">This is h2 heading</h2>
+
+       <p class="p1"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi earum magni 
+        animi facere labore neque in aut assumenda veritatis nesciunt!
+      </p>
+
+      <p class="p1">
+        Third Paragraph
+      </p>
+
+      <p id="p2">
+        Fourth Paragraph
+      </p>
+        <script>
+          let e1 = document.querySelectorAll(".p1");
+          for(let i =0 ; i<e1.length; i++)
+          {
+            e1[i].style.color = "purple";
+            e1[i].style.backgroundColor="orange";
+            e1[i].style.fontSize = "30px";
+          }
+
+
+          let e2 = document.querySelector("#p2");
+          e2.style.backgroundColor="blue";
+          e2.style.color="white";
+        </script>
+      </body>
+    
+</html>
