@@ -1,0 +1,96 @@
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dab2b2;
+    margin: 20px;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color:plum;
+    padding: 10px;
+   
+}
+
+.navbar a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: yellow;
+}
+
+/* Headings */
+h1 {
+    color: blueviolet;
+    font-size: 32px;
+}
+
+h2 {
+    color: maroon;
+    font-size: 26px;
+}
+
+h3 {
+    color: brown;
+    font-size: 20px;
+}
+
+/* Paragraph */
+p {
+    font-size: 16px;
+    color:blue;
+}
+
+/* Product Box */
+.product {
+    background-color: white;
+    padding: 15px;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+    width: 250px;
+}
+
+/* Buttons */
+button {
+    background-color: yellow;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: green;
+}
+
+/* Table Styling */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th {
+    background-color: #333;
+    color: white;
+    font-size: 18px;
+}
+
+td {
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Form Styling */
+input, textarea {
+    width: 250px;
+    padding: 5px;
+    margin-top: 5px;
+}
